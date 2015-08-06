@@ -1,0 +1,205 @@
+/* 
+ * CIS 1350 Final Project
+ * Author: Heather Taylor
+ * Date: July 27, 2015 
+ * 
+ */
+
+/* Main Style Sheet */
+
+/* body style */
+body, header, footer, main{
+	background-color: #fff;
+	font-family: 'Montserrat', sans-serif;
+}
+
+/* footer style */
+footer{
+	background-color: #00c4b3;
+	clear: both;
+	height: 150px;
+	line-height: 1.35em;
+	padding: 1em;
+}
+
+footer a{
+	color: #000;
+	text-decoration: none;
+}
+
+footer a:hover{
+	color: #fff;
+}
+
+/* header style */
+header{
+	background-color: #f7484e;
+	padding: 60px 0px 15px 0px;
+}
+
+header img{
+	margin-left: 8%;
+}
+
+/* icon style */
+i{
+	color: #fff;
+	padding-left: .7em;
+	padding-right: .7em;
+	padding-top: .05em;
+	vertical-align: text-top;
+}
+
+/* image style */
+img{
+	padding: 10px;
+}
+
+/* navigation style*/
+nav{
+	background-color: #fff;
+	padding: 3.0% 10% 2.0% 3.0%;
+	text-align: right;
+}
+
+nav ul li{
+	display: inline;
+	list-style-type: none;
+	padding: 2em;
+}
+
+nav a{
+	color: #000;
+	text-decoration: none;
+}
+
+nav a:hover{
+	color: #7edbd4;
+}
+
+/* type style */
+h1{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 2em;
+	letter-spacing: .10em;
+	line-height: 1.5em;
+}
+
+h2{
+	font-size: 1.5em;
+}
+
+h3{
+	font-size: 1em;
+}
+
+h4{
+	font-size: .8em;
+}
+
+main{
+	background-color: #fff;
+	width: 100%;
+}
+
+#copyright{
+	color: #7edbd4;
+	margin-left: 8%;
+	margin-top: 1.0%;
+	padding: 4em 4em 0em 0em;
+	/*width: 100%;*/
+}
+
+#contact{
+	float: left;
+	margin-left: 8%;
+	width: 40%;
+}
+
+#container{
+	height: 100%;
+	min-height: 100%;
+	width: 100%;
+}
+
+#content{
+	background-color: #fff;
+	margin-left: 8%;
+	margin-right: 10%;
+	padding: 1em;
+}
+
+#content a{
+	color: #000;
+	text-decoration: none;
+}
+
+#content a:hover{
+	color: #7edbd4;
+}
+
+#content i{
+	color: #7edbd4;
+}
+
+#content h3{
+	color: #7edbd4;
+}
+
+#aboutmedescription{
+	float: right;
+	letter-spacing: .02em;
+	line-height: 1.35em;
+	margin-top: 1em;
+	width: 63%;
+}
+
+#aboutmegraphic{
+	float: left;
+	margin-top: 1em;
+	width: 33%;
+}
+
+#aboutmegraphic img{
+	margin-bottom: 5em;
+	width: 100%;
+}
+
+/* Portfolio */
+
+#portfoliodescription{
+	float: right;
+	line-height: 1.35em;
+	margin-top: 1.5em;
+	width: 43%;
+}
+
+#portfoliographic{
+	float: left;
+	margin-top: 1em;
+	width: 48%;
+}
+
+#portfoliographic img{
+	margin-bottom: 5em;
+	width: 100%;
+}
+
+#portfoliolink{
+	padding: .5em;
+	text-align: center;
+}
+
+#portfoliolink a:hover{
+	opacity: 0.5;
+}
+
+#portfoliolink img{
+	padding: 2em;
+}
+
+#work{
+	float: right;
+	margin-right: 8%;
+	width: 40%;
+}

@@ -1,0 +1,97 @@
+/* 
+ * CIS 1350 Final Project
+ * Author: Heather Taylor
+ * Date: July 27, 2015 
+ * 
+ */
+
+/* Mobile Style Sheet */
+
+/* body style */
+
+/* header style */
+header{
+	padding: 30px 0px 15px 0px;
+}
+
+header img{
+	margin-left: 8.0%;
+	width: 75%;
+}
+
+/* navigation style*/
+nav{
+	padding: 3.0% 5.0% 3.0% 3.0%;
+	text-align: right;
+}
+
+nav ul li{
+	display: block;
+	line-height: 0.25%;
+	list-style-type: none;
+	padding: 25px;
+	text-align: center;
+}
+
+/* type style */
+h1{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1.25em;
+	letter-spacing: .10em;
+	line-height: 1.25em;
+}
+
+#content{
+	margin-left: 5.0%;
+	margin-right: 5.0%;
+}
+
+/* About me */
+
+#aboutmedescription{
+	font-size: .8em;
+	line-height: 1.25em;
+	margin-bottom: 1em;
+	margin-top: 1em;
+	width: 100%;
+}
+
+#aboutmegraphic{
+	margin-top: 1em;
+	width: 100%;
+}
+
+#aboutmegraphic img{
+	margin-bottom: 0.5em;
+	width: 100%;
+}
+
+/* Portfolio */
+
+#portfoliodescription{
+	font-size: .8em;
+	line-height: 1.25em;
+	margin-bottom: 1em;
+	margin-top: .25em;
+	width: 100%;
+}
+
+#portfoliographic{
+	margin-top: 1em;
+	width: 100%;
+}
+
+#portfoliographic img{
+	margin-bottom: 0.5em;
+	width: 100%;
+}
+
+#portfoliolink{
+	padding: .25em;
+	text-align: center;
+}
+
+#portfoliolink img{
+	padding: 1em;
+	width: 80%;
+}

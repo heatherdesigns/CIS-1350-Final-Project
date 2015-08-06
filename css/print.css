@@ -1,0 +1,44 @@
+/* 
+ * CIS 1350 Final Project
+ * Author: Heather Taylor
+ * Date: July 27, 2015 
+ * 
+ */
+
+/* Print Style Sheet */
+
+/* Hide elements */
+nav, footer, header{
+	display: none;
+}
+
+@page{
+	size: 8.5in 11in;
+	margin: 0.5in;
+}
+
+/* Format page */
+
+body, header, footer, main{
+	background-color: #fff;
+	color: #000;
+	font-size: 10pt;
+	font-family: 'Montserrat', sans-serif;
+	line-height: 120%;
+}
+
+#portfoliographic img{
+	max-width: 3in; 
+}
+
+#aboutmegraphic img{
+	display: none;
+}
+
+#content a{
+	text-decoration: none;
+}
+
+#content i{
+	display: none;
+}
