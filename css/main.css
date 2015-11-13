@@ -1,7 +1,7 @@
 /* 
  * CIS 1350 Final Project
  * Author: Heather Taylor
- * Date: July 27, 2015 
+ * Last update: October 24, 2015 
  * 
  */
 
@@ -170,6 +170,7 @@ main{
 #portfoliodescription{
 	float: right;
 	line-height: 1.35em;
+	margin-bottom: 1.5em;
 	margin-top: 1.5em;
 	width: 43%;
 }
