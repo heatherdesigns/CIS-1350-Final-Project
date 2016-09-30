@@ -55,6 +55,12 @@ img{
 	padding: 10px;
 }
 
+/* list style */
+ul li{
+	list-style-position: outside;
+	list-style-type: disc;
+}
+
 /* navigation style*/
 nav{
 	background-color: #fff;
